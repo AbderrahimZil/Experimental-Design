@@ -1,3 +1,7 @@
+# Data source:
+# Quality Progress "For Starbucks, It's in the Bag", March 2011, pp. 18-2. 
+# http://rube.asq.org/quality-progress/2011/03/design-of-experiments/for-starbucks-its-in-the-bag.html
+
 S <- read.csv('starbucks.csv')
 S <- S[,c('Viscosity', 'Pressure', 'Plate.gap', 'Tear', 'Leakage')]
 
