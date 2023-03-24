@@ -1,4 +1,6 @@
 # hardness data
+#from Design and Analysis of Experiments Douglas C. Montgomery. part 1 
+
 # tip1 tip2
 # 1     7    6
 # 2     3    3
