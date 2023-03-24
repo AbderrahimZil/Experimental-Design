@@ -28,60 +28,9 @@ boxplot(
   boxwex = 0.25
   )
 
-df
-par(mfrow=c(1,2))
-hist(df.long[df.long$Type=='modified',]$Hardness, breaks = 4)
-hist(df.long[df.long$Type=='unmodified',]$Hardness)
-qqplot(df.long[df.long$Type=='modified',]$Hardness)
-
-dat = df.long[df.long$Type=='modified',]$Hardness
-hist(dat, breaks = seq(min(dat), max(dat), length.out = 11))
-dat1 = df.long[df.long$Type=='unmodified',]$Hardness
-
-hist(dat1, breaks = seq(min(dat1), max(dat1), length.out = 11))
-
-# Q-Q plot
-attach(df.long)
-par(mfrow=c(1,2))
-qqnorm(y = Strength[Type == 'modified'],
-       pch = 5,
-       frame = TRUE,
-       main=c(paste('Q-Q Plot of the'),
-              paste('modified mortar Strength data')))
-qqline(Strength[Type == 'modified'], lwd = 2, col='red')
-
-qqnorm(y = Strength[Type == 'unmodified'],
-       pch = 5,
-       frame = TRUE,
-       main=c(paste('Q-Q Plot of the'),
-              paste('unmodified mortar Strength data')))
-qqline(Strength[Type == 'unmodified'], lwd = 2, col='red')
-
-# Shapiro-Wilk normality test on Hardness
-shapiro.test(model$residuals)
-shapiro.test(Strength[Type == 'unmodified'])
-
-
-> ggplot(df.long, aes(x=Hardness, fill=Type)) + 
-  +   geom_histogram(aes(y=..density..), position="identity", alpha=0.7, binwidth = .1)+
-  +   theme_classic() +
-  +   geom_density(alpha=0.6) + 
-  +   scale_fill_brewer()
-
-t.test(Strength ~ Type, data = df.long, var.equal = TRUE, alternative = 'one.sided')
-
-library(car)
-leveneTest(Hardness ~ Type, data=df.long, center=mean) # Levene's test
-summary(df.long)
-
-t.test(data = df.long,
-       Strength ~ Type,
-       alternative = 'less',
-       var.equal = TRUE)
-
+## Compliance with the assumptions
+# Normality of the residuals
 model = aov(Strength ~ Type, data = df.long)
-model$fitted.values
-
 qqnorm(y = model$residuals,
        pch = 5,
        frame = TRUE,
@@ -89,3 +38,18 @@ qqnorm(y = model$residuals,
               paste('model residuals')))
 qqline(model$residuals, lwd = 2, col='red')
 
+# checking normality of the residuals
+# Shapiro-Wilk normality test on Strength
+shapiro.test(model$residuals)
+
+# homogeneity of variance
+# Levene's test
+library(car)
+leveneTest(Strength ~ Type, data=df.long, center=mean)
+summary(df.long)
+
+## performing the test
+t.test(data = df.long,
+       Strength ~ Type,
+       alternative = 'less',
+       var.equal = TRUE)
