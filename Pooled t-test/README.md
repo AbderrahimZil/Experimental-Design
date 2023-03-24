@@ -1,7 +1,7 @@
 ## Experiment
 The study* describes an experiment in which the experimenter investigates the effect of an additive on the bond strength of the mortar formulation. 
 The data provided records strength of ten samples from each recipe : 
-modified, with the additive unmodified, the recipe left as it is  (the original formulation)
+modified, with the additive and unmodified in whcihc the recipe left as it is  (the original formulation)
 The experiment aims to answer the question, whether the additive lowers the mortar strength?
 
 ## Pooled test
