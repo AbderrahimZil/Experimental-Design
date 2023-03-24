@@ -30,7 +30,7 @@ cube_plot <- cubePlot(Yield, T, C, K, main=paste("Cube Plot"),
 plot(design, cex = 1.0, cex.lab = 1.0, cex.axis = 0.9,
      main = "Main effects plot for MI", cex.main = 0.9)
 
-MEPlot(design, abbrev = 5, cex.xax = 1.1, cex.main = 1.4)
+MEPlot(design, abbrev = 5, cex.xax = 0.9, cex.main = 0.9)
 
 # interaction plot
 IAPlot(design, abbrev = 3, show.alias = TRUE, lwd = 2,
