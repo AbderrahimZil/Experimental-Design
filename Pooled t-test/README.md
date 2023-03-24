@@ -9,3 +9,4 @@ The experiment aims to answer the question, whether the additive lowers the mort
 ## Pooled test
 
 
+![](./assets/images/strength.jpeg)
