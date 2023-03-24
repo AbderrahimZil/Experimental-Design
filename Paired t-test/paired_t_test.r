@@ -13,6 +13,7 @@
 
 # add unit column
 hardness$specimen = 1:nrow(hardness)
+hardness$specimen = factor(hardness$specimen)
 
 # reorder columns 
 hardness <- hardness[, c("specimen", "tip1", "tip2")]
@@ -24,15 +25,15 @@ hardness <- pivot_longer(data = hardness,
                          names_to = "Tip",
                          values_to = "Hardness")
 
-hardness$specimen = factor(hardness$specimen)
+
 summary(hardness)
-hardness
-attach(hardness)
 
+## visualisation
 boxplot( Hardness ~ Tip, data = hardness )
-library(ggpubr)
 
+## perform the test
 t.test(Hardness[Tip == 'tip2'], Hardness[Tip == 'tip1'], paired= TRUE, var.equal = TRUE)
 
+## checking the normality of the residuals
 qqnorm(Hardness[Tip == 'tip2']); qqline(Hardness[Tip == 'tip2'])
 ## Ends here###########################################################
