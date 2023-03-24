@@ -1,2 +1,0 @@
-# 
-![](./assets/images/cube.jpeg)
