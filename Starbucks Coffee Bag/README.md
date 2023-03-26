@@ -3,3 +3,5 @@ The goal of this experiment is to fit Response Surface Models to the two conflic
 ![](./assets/images/TearVs.Leak.jpeg)
 
 ![](./assets/images/Result.jpeg)
+
+![](./assets/images/desirability_profile.jpeg)
