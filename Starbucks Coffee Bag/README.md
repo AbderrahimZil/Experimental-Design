@@ -2,7 +2,7 @@ The goal of this experiment is to fine tune the sealing process of the Starbucks
 
 To find the process settings minimizing both the outcomes, Response Surface Models were fit to model each response and Desirability Function was used to find a compromise solution.
 
-Bellow is displayed the outcomes conflict and the consensus region where the specification limits are met for both outcomes.
+Bellow is displayed the outcomes conflict and the consensus region where the specification limits are met for each outcome.
 
 ![](./assets/images/TearVs.Leak.jpeg)
 
