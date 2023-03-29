@@ -55,10 +55,8 @@ par(mfrow=c(1,1))
 # which has a variability expected to change with the size of the proportion.
 # Therefore, it would be necessary to transform it to stabilize the variance.
 
-# th appropriate the transformation to stabilize the variance is arsin(sqrt())
-
 # Fitting a second order model to the transformed response
-model_L <- rsm(asin(sqrtLeakage) ~ FO(xp, xg)+ PQ(xg), data = S)
+model_L <- rsm(Leakage ~ FO(xp, xg)+ PQ(xg), data = S)
 
 # checking significance of the fit
 summary(model_L)
