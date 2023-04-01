@@ -6,7 +6,7 @@ A 2-factors factorial experiment is ran: plate material type (Material) and lab 
 *from Design and Analysis of Experiments Douglas C. Montgomery. part 1-John Wiley (2001)
 
 
-![](./assets/images/interact_plot.png)
+![](./interact_plot.png)
 
 ## Predictions
-![](./assets/images/Results.png)
+![](./Results.png)
