@@ -6,4 +6,4 @@ The experiment aims to answer the question, whether the additive lowers the mort
 
 *from Design and Analysis of Experiments Douglas C. Montgomery. part 1-John Wiley (2001)
 
-![](./assets/images/strength.jpeg)
+![](./strength.jpeg)
