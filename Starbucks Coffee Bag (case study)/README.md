@@ -4,6 +4,4 @@ To find the process settings minimizing both the outcomes, Response Surface Mode
 
 Bellow is displayed the outcomes conflict and the consensus region where the specification limits are met for each outcome.
 
-![](./assets/images/TearVs.Leak.jpeg)
-
 ![](./assets/images/Desirability.gif)
