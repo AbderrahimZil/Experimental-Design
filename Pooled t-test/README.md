@@ -9,7 +9,7 @@ The experiment aims to answer the question, whether the additive lowers the mort
 ![](strength.jpg)
 
 
-![](/dotplot.jpg)
+![](dotplot.jpg)
 
 
-![](/residuals_check.jpg)
+![](residuals_check.jpg)
