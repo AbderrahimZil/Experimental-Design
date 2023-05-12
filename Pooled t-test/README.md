@@ -12,4 +12,4 @@ The experiment aims to answer the question, whether the additive lowers the mort
 <!-- ![](dotplot.jpg) -->
 
 
-![](/residuals_check.jpg)
+<!-- ![](/residuals_check.jpg) -->
