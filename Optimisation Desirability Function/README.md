@@ -4,7 +4,7 @@ This experiment describes ...
 CCD was used ...
 
 <p align="center">
-  <img src="desirabilities.png">
+  <img src="single_desirabilities.png">
 </p>
 
 
