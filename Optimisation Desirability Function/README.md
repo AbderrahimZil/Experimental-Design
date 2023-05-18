@@ -3,4 +3,8 @@
 This experiment describes ...
 CCD was used ...
 
-![](Plot_Desirability.gif)
+<p align="center">
+  <img src="Plot_Desirability.gif">
+</p>
+
+<!-- ![](Plot_Desirability.gif) -->
