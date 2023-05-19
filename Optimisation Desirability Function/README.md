@@ -1,8 +1,5 @@
 ## Multiple Responses
 
-This experiment describes ...
-CCD was used ...
-
 In the paper linked bellow, the Desirability Function is developed to optimize multiple respnses. 
 <p align="center">
   <img src="single_desirabilities.png">
