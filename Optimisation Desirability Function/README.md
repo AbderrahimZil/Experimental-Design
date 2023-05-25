@@ -4,6 +4,7 @@ In the paper linked bellow, the Desirability Function is developed to optimize m
 The iseda behind the proposed method is that a solution to the optimization broblem is rejected if one of the optimized features is outside a desirable interval. Therefore the goal is to find operating settings that garantee compliance with the criteria of the involved responses.
 
 The individual responses are aggregated into a composite function called the Overall Desirability which is optimized afterwards.
+
 **The Desirability Function**
 $$\text{Overall Desirability} = (\prod_{r=1}^{R} \text{desirability}_r)^{ \frac{1}{R} } \$$
 <p align="center">
