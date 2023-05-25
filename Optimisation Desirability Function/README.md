@@ -16,7 +16,7 @@ A Central Composite Design (CCD) is used
 \text{Overall Desirability} = (\prod_{r=1}^{R} \text{desirability}_r)^{ \frac{1}{R} }
 
 **The Cauchy-Schwarz Inequality**
-$$ \text{Overall Desirability} = \left(\prod_{r=1}^{R} \text{desirability}_r)\right ^{ \frac{1}{R} } $$
+$$\( \text{Overall Desirability} = (\prod_{r=1}^{R} \text{desirability}_r)^{ \frac{1}{R} } \)$$
 
 * Derringer and Suich (1980), "Simultaneous Optimization of Several Response Variables", 
 Journal of Quality Technology, Vol. 12, No. 4, pp. 214-219.
