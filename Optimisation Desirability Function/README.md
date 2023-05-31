@@ -3,6 +3,13 @@
 In the paper linked bellow, the Desirability Function is developed to optimize multiple respnses simultaneously.
 The iseda behind the proposed method is that a solution to the optimization broblem is rejected if one of the optimized features is outside a desirable interval. Therefore the goal is to find operating settings that garantee compliance with the criteria of the involved responses.
 
+| Response | Desired range |
+| --- | --- |
+| {Y1}_1 | List all new or modified files |
+| Y2 | Show file differences that haven't been staged |
+| git status | List all new or modified files |
+| git diff | Show file differences that haven't been staged |
+
 The individual responses are aggregated into a composite function called the Overall Desirability which is optimized afterwards.
 
 **The Desirability Function**
