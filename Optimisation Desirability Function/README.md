@@ -5,10 +5,10 @@ The iseda behind the proposed method is that a solution to the optimization brob
 
 | Response | Desired range |
 | --- | --- |
-| {Y1}_1 | List all new or modified files |
-| Y2 | Show file differences that haven't been staged |
-| git status | List all new or modified files |
-| git diff | Show file differences that haven't been staged |
+| Y1 | 120 < Y1 |
+| Y2 | 1000 < Y2 |
+| Y3 | 400 < Y3 < 600 |
+| Y4 | 60 < Y3 < 75 |
 
 The individual responses are aggregated into a composite function called the Overall Desirability which is optimized afterwards.
 
