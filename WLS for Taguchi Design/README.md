@@ -10,7 +10,6 @@
 8	+7	2.7	6
 9	+7	2.9	5
 
--tx-
 |             |          Grouping           || 
 First Header  | Second Header | Third Header | 
  ------------ | :-----------: | -----------: | 
