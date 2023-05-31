@@ -10,11 +10,7 @@
 8	+7	2.7	6
 9	+7	2.9	5
 
-|             |          Grouping           || 
-First Header  | Second Header | Third Header | 
- ------------ | :-----------: | -----------: | 
-Content       |          *Long Cell*        || 
-Content       |   **Cell**    |         Cell | 
-New section   |     More      |         Data | 
-And more      | With an escaped '\|'       || 
-[Prototype table]
+|             |          Grouping           ||
+First Header  | Second Header | Third Header |
+ ------------ | :-----------: | -----------: |
+Content       |          *Long Cell*        ||
