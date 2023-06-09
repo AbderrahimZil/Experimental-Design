@@ -5,8 +5,15 @@ A 2-factors factorial experiment is ran: plate material type (Material) and lab 
 
 *from Design and Analysis of Experiments Douglas C. Montgomery. part 1-John Wiley (2001)
 
+<p align="center">
+  <img src="data.png">
+</p>
 
-![](./interact_plot.png)
 
-## Predictions
-![](./Results.png)
+<p align="center">
+  <img src="interact_plot.png">
+</p>
+
+<p align="center">
+  <img src="Results.png">
+</p>
