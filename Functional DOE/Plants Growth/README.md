@@ -21,6 +21,13 @@ For additional information, you can refer to the link https://community.jmp.com/
 <p align="left-align">
 
 The height of plants is tracked for 7 days since planting and the maximum height of each pot is recorded on each day as the response of each facors combination, as shown in the design table bellow.
+
+<div style="text-align: center;">
+  <p>The height of plants is tracked for 7 days since planting, and the maximum height of each pot is recorded on each day as the response of each factors combination, as shown in the design table below.
+  </p>
+
+<div align="center">
+
 |     |          |       |        |     |     |    |     |      |    |
 |  -  |     -    |   -   |   -    |  -  |  -  |  - |  -  |  -   | -  |
 |  Pot| Substrate| Qlight|  Cress |Day0 |Day1 |Day2| Day3| Day5 |Day7|
@@ -35,9 +42,9 @@ The height of plants is tracked for 7 days since planting and the maximum height
 |9    |cotton    | dark | plain   | 0   | 0   | 0  |2.0 | 7.0   | 9|
 |10   |   soil   |  dark| curled  |  0  |  0  |  0 | 2.2|  8.0  |  9|
 |11   | cotton   |  dark|  plain  |  0  |  0  |  0 | 2.1|  6.0  |  9|
-|12   | cotton   | light| curled  |  0  |  0  |  0 | 0.4|  2.5  |  4|
+|12   | cotton   | light| curled  |  0  |  0  |  0 | 0.4|  2.5  |  4| 
 
-</p>
+</div>
 
 ## Height curve as function of time for each pot
 <p align="center">
