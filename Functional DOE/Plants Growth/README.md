@@ -1,6 +1,6 @@
 ## The Cress Experiment
 In this experiment, we investigate the impact of three factors on garden cress growth.
-For additiona linformation, you can refer to the link https://community.jmp.com/t5/JMP-Blog/Let-It-Grow-The-Garden-Cress-Challenge-Announcing-our-Winner/ba-p/549808
+For additional information, you can refer to the link https://community.jmp.com/t5/JMP-Blog/Let-It-Grow-The-Garden-Cress-Challenge-Announcing-our-Winner/ba-p/549808
 
 <div align="center">
 
