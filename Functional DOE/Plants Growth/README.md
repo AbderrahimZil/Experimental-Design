@@ -18,7 +18,7 @@ For additional information, you can refer to the link https://community.jmp.com/
   <img src="The Garden Cress Challenge.gif">
 </p>
 
-The height of plants is tracked for 7 days since planting and the maximum height of each pot is recorded on each day as the response of each combination.
+The height of plants is tracked for 7 days since planting and the maximum height of each pot is recorded on each day as the response of each facors combination.
 
 <p align="center">
   <img src="Growth Data.png">
