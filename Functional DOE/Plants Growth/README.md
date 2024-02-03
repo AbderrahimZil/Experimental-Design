@@ -18,7 +18,7 @@ For additional information, you can refer to the link https://community.jmp.com/
   <img src="The Garden Cress Challenge.gif">
 </p>
 
-<p align="left">
+<p align="left-align">
 
 The height of plants is tracked for 7 days since planting and the maximum height of each pot is recorded on each day as the response of each facors combination, as shown in the design table bellow.
 |     |          |       |        |     |     |    |     |      |    |
@@ -36,6 +36,8 @@ The height of plants is tracked for 7 days since planting and the maximum height
 |10   |   soil   |  dark| curled  |  0  |  0  |  0 | 2.2|  8.0  |  9|
 |11   | cotton   |  dark|  plain  |  0  |  0  |  0 | 2.1|  6.0  |  9|
 |12   | cotton   | light| curled  |  0  |  0  |  0 | 0.4|  2.5  |  4|
+
+</p>
 
 ## Height curve as function of time for each pot
 <p align="center">
