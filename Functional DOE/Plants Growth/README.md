@@ -35,6 +35,7 @@ The height of plants is tracked for 7 days since planting and the maximum height
 |11   | cotton   |  dark|  plain  |  0  |  0  |  0 | 2.1|  6.0  |  9|
 |12   | cotton   | light| curled  |  0  |  0  |  0 | 0.4|  2.5  |  4|
 
+## Height curve as function of time for each pot
 <p align="center">
   <img src="Growth Data.png">
 </p>
