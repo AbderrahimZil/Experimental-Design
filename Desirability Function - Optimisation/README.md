@@ -1,11 +1,11 @@
-## Multiple Responses
-
-In the modeling part, the Desirability Function is developed for the constrained optimization.
-
 ## The Overlayed Plots
+
 <p align="center">
   <img src="overlayed.jpg">
 </p>
+
+## Multiple Responses
+In the modeling part, the Desirability Function is developed. In this section constrained optimization used to find the maximum desirability.
 
 <div align="center">
 
@@ -16,6 +16,9 @@ In the modeling part, the Desirability Function is developed for the constrained
 | Y3 |  Y3 < 3400 |
 
 </div>
+
+## Optimization Results
+Using optim package, the combination with the highest overall desirability is presented bellow.
 
 <div align="center">
 
