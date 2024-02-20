@@ -4,7 +4,7 @@
 </p>
 
 ## Multiple Responses
-In the modeling part, the Desirability Function is developed. In this section constrained optimization used to find the maximum desirability.
+In the RSM modeling part, the Desirability Function is developed. In this section constrained optimization used to find the maximum desirability.
 
 <div align="center">
 
