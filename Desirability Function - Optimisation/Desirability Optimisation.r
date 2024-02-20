@@ -1,5 +1,4 @@
 mesh <- expand.grid(seq(-1.41, 1.41, by=0.02), seq(-1.41, 1.41, by=0.02))
-# mesh <- expand.grid(seq(-1.6, 1.6, by=0.2), seq(-1.6, 1.6, by=0.2))
 colnames(mesh) <- c("x1", "x2")
 
 mesh$Time <- mesh$x1*5 + 85
@@ -10,6 +9,7 @@ mesh$Y2 <- predict(modelY2, newdata = mesh)
 mesh$Y3 <- predict(modelY3, newdata = mesh)
 
 library(desirability)
+
 # respect order of functions to evaluate
 dMnL <- dMin(low=3000, high=3400, scale = 1)
 dMnH <- dMax(low=78.5, high=80, scale=1)
@@ -20,16 +20,10 @@ overallD <- dOverall(dMnH, dMnT, dMnL)
 desir <- predict(overallD, mesh[,5:7], TRUE)
 dataD <- cbind(mesh[,3:4], desir)
 
-#install.packages("plot3Drgl")
+
 library(plot3Drgl)
 image2Drgl(X, Y, z = d, contour = TRUE, main = "Overlapped Contours", 
            xlab='Time (min)', ylab='Temperature (degC)', axes=TRUE)
-
-persp3Drgl(x=X, y=Y,z = d,
-           xlab='Time (min)', ylab='Temperature (degC)', zlab='Overall Desirability', 
-           contour = list(side = "zmin"),smooth = TRUE,scale=2,
-           ticktype='detailed', box=TRUE, axes=TRUE, expand=.75, nticks=5,
-           shade=0.25, theta=40, phi=30)
 
 ###############################################
 ################## Optimization################
