@@ -1,7 +1,7 @@
 ## Multiple Responses
 
 In the paper linked bellow, the Desirability Function is developed to optimize multiple respnses simultaneously.
-The iseda behind the proposed method is that a solution to the optimization broblem is rejected if one of the optimized features is outside a desirable interval. Therefore the goal is to find operating settings that garantee compliance with the criteria of the involved responses.
+The idea behind the proposed method is that a solution to the optimization broblem is rejected if one of the optimized features is outside a desirable interval. Therefore the goal is to find operating settings that garantee compliance with the criteria of the involved responses.
 
 <div align="center">
 
