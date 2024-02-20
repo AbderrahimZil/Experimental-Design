@@ -1,7 +1,6 @@
 ## The Overlayed Plots
-
 <p align="center">
-  <img src="overlayed.jpg">
+  <img src="optimum-on-overlayed.png">
 </p>
 
 ## Multiple Responses
