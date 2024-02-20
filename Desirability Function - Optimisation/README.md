@@ -2,7 +2,7 @@
 
 In the modeling part, the Desirability Function is developed for the constrained optimization.
 
-## The Desirability Function
+## The Overlayed Plots
 <p align="center">
   <img src="overlayed.jpg">
 </p>
@@ -15,6 +15,8 @@ In the modeling part, the Desirability Function is developed for the constrained
 | Y3 |  Y3 < 3400 |
 </div>
 
+<div align="center">
 | Time | Temperature |
 | --- | --- |
 | 85.30887 | 170.87462  |
+</div>
