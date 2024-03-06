@@ -1,3 +1,4 @@
+# Analysis of Central Composite Design
 <p align="center">
   <img src="y1persp.png">
 </p>

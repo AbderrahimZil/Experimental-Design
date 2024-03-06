@@ -20,7 +20,7 @@ For additional information, you can refer to the link https://community.jmp.com/
 
 
 <div style="text-align: left;">
-  <p>The height of plants is tracked for 7 days since planting, and the maximum height of each pot is recorded on each day as the response of each factors combination, as shown in the design table below.
+  <p>The height of plants is tracked, and the maximum height of each pot is recorded on 6 days as the response of each factors combination, as shown in the design table below.
   </p>
 
 <div align="center">
@@ -46,4 +46,28 @@ For additional information, you can refer to the link https://community.jmp.com/
 ## Height curve as function of time for each pot
 <p align="center">
   <img src="Growth Data.png">
+</p>
+
+## Smoothing the Curves
+<div style="text-align: left;">
+  <p>The first step of fda analysis is to smooth the discrete curves. 
+  </p>
+  <p align="center">
+  <img src="Rplot02.png">
+</p>
+
+## Curve Decomposition and Reconstruction
+<div style="text-align: left;">
+  <p>Once the curve is smoothed it can be decomposed to its principle components. Like PCA, FPCA displays Functional Principal Components Analysis the dominant or modes of variation.
+  </p>
+  <p align="center">
+  <img src="curve-reconstruction.gif">
+</p>
+
+## Curve Clustering
+<div style="text-align: left;">
+  <p>
+  </p>
+  <p align="center">
+  <img src="clustering_fpc_scores.png">
 </p>
