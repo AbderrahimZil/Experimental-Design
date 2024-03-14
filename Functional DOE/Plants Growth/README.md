@@ -1,3 +1,8 @@
+## The Growth Simulator App
+<p align="center">
+  <img src="App.gif">
+</p>
+
 ## The Cress Experiment
 In this experiment, we investigate the impact of three factors on garden cress growth.
 For additional information, you can refer to the link https://community.jmp.com/t5/JMP-Blog/Let-It-Grow-The-Garden-Cress-Challenge-Announcing-our-Winner/ba-p/549808
